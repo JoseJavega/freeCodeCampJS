@@ -6,3 +6,5 @@ Reproductor mp3 básico, con lista de canciones guardadas en array de objetos<br
 * Funciones de flecha `()=>{}` con y sin parámetro
 * Función de flecha como parámetro de otra funcion (Callbacks)<br>
    `const songsHTML = array.map((song)=>{"lógica de la función"}`
+
+   cosas nuevas de prueba
