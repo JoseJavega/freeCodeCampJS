@@ -8,3 +8,6 @@ Filtro de correos spam usando Expresiones regulares
 ###FLAGS
 * regex = /expresion/`i` -> ignora mayúsculas y minúsculas
 * regex = /expresion`|`otraExpresion/ -> busca si hay coincidencia a uno u otro lado de `|`
+* regex = /`[`aeiou`]`/ -> los `[]` delimitan una lista con la que comparar
+* regex = /`[`a-z`]`/ -> además de una lista se puede poner un rango usando el `-`
+* regex = /[a-z]`+`/ -> para buscar coincidencias recurrentes se usa `+`
